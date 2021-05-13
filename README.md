@@ -43,3 +43,11 @@ python demo_omniglot_transfer.py -h
 # Other examples:
 ./scripts/exp_unsupervised_transfer_Omniglot.sh
 ```
+
+### Test
+```bash
+# The test files we used to test the MCL strategy
+generate_table_test.py
+supervised_learning_compare_test.py
+```
+# Learn the Similarity Prediction Network (SPN) with Omniglot_background and then transfer to the 20 alphabets in Omniglot_evaluation.
