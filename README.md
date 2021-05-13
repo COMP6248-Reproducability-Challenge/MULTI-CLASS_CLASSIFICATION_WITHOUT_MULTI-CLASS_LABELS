@@ -49,7 +49,7 @@ demo_omniglot_transfer.py
 ```
 
 
-### Test
+### Test（own code）
 ```bash
 # The test files we used to test the MCL strategy
 
