@@ -4,12 +4,31 @@
 
 
 ## Introduction
-This repository provides reproducibility of  [Multi-class Classification without Multi-class Labels
+This repository provides reproduction of  [Multi-class Classification without Multi-class Labels
 ](https://arxiv.org/abs/1901.00544) 
 
+The open-source can be found at: [https://github.com/GT-RIPL/L2C]()
 
-## Preparation
-This repository supports PyTorch 1.0, python 2.7, 3.6, and 3.7.
+## Team Member
+Ruihuang Ding (<rd3n20@soton.ac.uk>)
+
+Bin Zhang (<bz1u20@soton.ac.uk>)
+
+Yefan Zhuang (<yz5e20@soton.ac.uk>)
+
+## Requirement
+
+```bash
+PyTorch 1.0, 
+python 2.7, 3.6, and 3.7
+torch>=0.4.1
+torchvision>=0.2.1
+argparse
+scipy
+sklearn
+
+```
+Or you can just use the following command:
 
 ```bash
 pip install -r requirements.txt
