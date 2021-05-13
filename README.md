@@ -34,7 +34,8 @@ Or you can just use the following command:
 pip install -r requirements.txt
 ```
 
-### Our own implementation for evaluation
+## Our own implementation for evaluation
+### Supervised scenario
 ```bash
 # The test files we used to test the MCL strategy
 
@@ -44,8 +45,8 @@ generate_table_test.py
 # generate the accuracy and loss curve
 supervised_learning_compare_test.py
 ```
-
-### Learn the Similarity Prediction Network (SPN) with Omniglot_background and then transfer to the 20 alphabets in Omniglot_evaluation.
+### Unsupervised scenario
+#### Learn the Similarity Prediction Network (SPN) with Omniglot_background and then transfer to the 20 alphabets in Omniglot_evaluation.
 ```bash
 demo_omniglot_transfer.py
 ```
