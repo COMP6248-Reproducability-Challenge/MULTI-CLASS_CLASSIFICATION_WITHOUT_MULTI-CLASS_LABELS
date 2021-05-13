@@ -40,15 +40,15 @@ pip install -r requirements.txt
 # The test files we used to test the MCL strategy
 
 # generate the data in Table 1
-generate_table_test.py
+python generate_table_test.py
 
 # generate the accuracy and loss curve
-supervised_learning_compare_test.py
+python supervised_learning_compare_test.py
 ```
 ### Unsupervised scenario
 #### Learn the Similarity Prediction Network (SPN) with Omniglot_background and then transfer to the 20 alphabets in Omniglot_evaluation.
 ```bash
-demo_omniglot_transfer.py
+python demo_omniglot_transfer.py
 ```
 
 ## Demo
