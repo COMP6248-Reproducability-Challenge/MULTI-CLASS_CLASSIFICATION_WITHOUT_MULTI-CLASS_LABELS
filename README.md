@@ -33,7 +33,25 @@ Or you can just use the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Our own implementation for evaluation
+```bash
+# The test files we used to test the MCL strategy
+
+# generate the data in Table 1
+generate_table_test.py
+
+# generate the accuracy and loss curve
+supervised_learning_compare_test.py
+```
+
+### Learn the Similarity Prediction Network (SPN) with Omniglot_background and then transfer to the 20 alphabets in Omniglot_evaluation.
+```bash
+demo_omniglot_transfer.py
+```
+
 ## Demo
+
 ### Supervised Classification/Clustering with only pairwise similarity
 ```bash
 # A quick trial:
@@ -62,20 +80,5 @@ python demo_omniglot_transfer.py -h
 # Other examples:
 ./scripts/exp_unsupervised_transfer_Omniglot.sh
 ```
-### Learn the Similarity Prediction Network (SPN) with Omniglot_background and then transfer to the 20 alphabets in Omniglot_evaluation.
-```bash
-demo_omniglot_transfer.py
-```
 
-
-### Test（own code）
-```bash
-# The test files we used to test the MCL strategy
-
-# generate the data in Table 1
-generate_table_test.py
-
-# generate the accuracy and loss curve
-supervised_learning_compare_test.py
-```
 
