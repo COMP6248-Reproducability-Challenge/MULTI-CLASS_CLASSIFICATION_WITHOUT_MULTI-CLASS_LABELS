@@ -7,7 +7,7 @@
 This repository provides reproduction of  [Multi-class Classification without Multi-class Labels
 ](https://arxiv.org/abs/1901.00544) 
 
-The open-source can be found at: [https://github.com/GT-RIPL/L2C]()
+The open-source code can be found at: [https://github.com/GT-RIPL/L2C]()
 
 ## Team Member (Team Relu)
 Ruihuang Ding (<rd3n20@soton.ac.uk>)
