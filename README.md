@@ -9,7 +9,7 @@ This repository provides reproduction of  [Multi-class Classification without Mu
 
 The open-source can be found at: [https://github.com/GT-RIPL/L2C]()
 
-## Team Member
+## Team Member (Team Relu)
 Ruihuang Ding (<rd3n20@soton.ac.uk>)
 
 Bin Zhang (<bz1u20@soton.ac.uk>)
